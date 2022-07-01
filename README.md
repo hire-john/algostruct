@@ -12,30 +12,29 @@ The program contains/will contain the following algortihms and structures and so
 
 ## ALGOrithms
 
-* Sorting Algorithms
- * Selection Sort
- * Insertion Sort
- * Bubble Sort
- * Merge Sort
- * Quick Sort 
- * Heap Sort
- * Tree Sort
- * Shell Sort
- * Bucket Sort
- * Radix Sort
- * Counting Sort
- * Cube Sort
+### Sorts
+* Selection
+* Insertion
+* Bubble
+* Merge
+* Quick 
+* Heap
+* Tree
+* Shell
+* Bucket
+* Radix
+* Counting
+* Cube
 
-* Searching Algorithms
- * Linear Search
- * Binary Search
- * Ternary Search 
- * Jump Search
- * Exponential Search
- * Interpolation Search
+### Searching
+* Linear
+* Binary 
+* Ternary  
+* Jump 
+* Exponential 
+* Interpolation
 
 ##  Data STRUCTures
-
 * Array
 * Stack
 * Queue
