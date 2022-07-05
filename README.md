@@ -13,8 +13,9 @@ The program contains/will contain the following algortihms and structures and so
 ## ALGOrithms
 
 ### Sorts
-* Selection
+* Selection  
 ![Algostruct Selection Sort Screenshot](https://www.hire-john.com/images/algostruct_selection_sort.png)
+
 * Insertion
 * Bubble
 * Merge
@@ -54,11 +55,19 @@ The program contains/will contain the following algortihms and structures and so
 ## Build Environment
 
 * Linux
-* VIM (no IDE is used for any of these repos)  
+* VIM (no IDE is used for any of these repos, yes I do use IDEs eclipse/netbeans/vscode/phpstorm)  
+![VIM Version Screenshot](https://www.hire-john.com/images/vim_version.png)
 
+* GNU Compiler Collection -> GCC version 12.1.1  
+![GCC Version Screenshot](https://www.hire-john.com/images/gcc_version.png)
 
-* GNU Compiler Collection -> GCC version 12.1.1
-* GNU Debugger -> GDB Version 12.1.1
-* GNU Automake -> AM Version 1.16.5 (currently optional - maybe for future use)
-* GNU Autoconf -> AC Version 2.71 (currently optional - maybe for future use)
-* All C is written and compiled to be in accordance with the C17 standard (gcc -std=c17) nearly everything will compile under C18 as well. I'm just sticking to the more wider known C17 standard at this time. 
+* GNU Debugger -> GDB Version 12.1.1  
+![GDB Version Screenshot](https://www.hire-john.com/images/gdb_version.png)
+
+* GNU Automake -> AM Version 1.16.5 (currently optional - maybe for future use) 
+![Automake Version Screenshot](https://www.hire-john.com/images/automake_version.png)
+
+* GNU Autoconf -> AC Version 2.71 (currently optional - maybe for future use) 
+![Autoconf Version Screenshot](https://www.hire-john.com/images/autoconf_version.png)
+
+* All C is written and compiled to be in accordance with the GNUISO C17 standard (gcc -std=c17) nearly everything will compile under C18 as well. I'm just sticking to the more wider known C17 standard at this time. 
