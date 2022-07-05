@@ -9,4 +9,14 @@
 #ifndef ALGOSTRUCT_ALGO_SORTING
 #define ALGOSTRUCT_ALGO_SORTING
 
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+#include <unistd.h>
+
+void seed_int_array(int*);
+void print_array(int*);
+
+void selection_sort(int*, int);
+
 #endif
