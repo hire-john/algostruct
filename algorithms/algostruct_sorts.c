@@ -1,17 +1,17 @@
 #include "algostruct_sorts.h"
 
-void seed_int_array(int* array){
+void seed_int_array(int* array, int* size){
 	time_t seed;
 	srand((unsigned) time(&seed));
-	for(int i = 0; i < size; i++){
+	for(int i = 0; i < *size; i++){
 		array[i] = rand() % 50;
 	}
 }
 
-void print_array(int* array){
+void print_array(int* array, int* size){
 	printf("{");
-	for(int i = 0; i < size; i++){
-		if(i == size - 1){
+	for(int i = 0; i < *size; i++){
+		if(i == *size - 1){
 			printf("[%d]=>%d", i, array[i]);
 		}else{
 			printf("[%d]=>%d,", i, array[i]);
@@ -20,11 +20,11 @@ void print_array(int* array){
 	printf("}\n");
 }
 
-void selection_sort(int* array, int asc_sort){
+void selection_sort(int* array, int* size, int asc_sort){
 	register int min;
-	for(int i = 0; i < size; i++){
+	for(int i = 0; i < *size; i++){
 		min = i;
-		for(int ii = i + 1; ii < size; ii++){
+		for(int ii = i + 1; ii < *size; ii++){
 			if(asc_sort){
 				if(array[ii] < array[min]){
 					min = ii;

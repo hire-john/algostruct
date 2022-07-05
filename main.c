@@ -16,16 +16,15 @@ int main(int argc, char** argv){
 }
 
 void test_selection_sort(){
-    int size;
+    int size, asc_sort;
     printf("enter # of elements: ");
     scanf("%d", &size);
-    int asc_sort;
     printf("enter 0 for descending order; enter 1 for ascending order: ");
     scanf("%d", &asc_sort);
     unsigned int* uint_array = (unsigned int*) malloc(size * sizeof(unsigned int));
-    seed_int_array(uint_array);
-    print_array(uint_array);
-    selection_sort(uint_array, asc_sort);
-    print_array(uint_array);
+    seed_int_array(uint_array, &size);
+    print_array(uint_array, &size);
+    selection_sort(uint_array, &size, asc_sort);
+    print_array(uint_array, &size);
     free(uint_array);
 }

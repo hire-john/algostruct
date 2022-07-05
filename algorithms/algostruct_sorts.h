@@ -14,9 +14,19 @@
 #include <time.h>
 #include <unistd.h>
 
-void seed_int_array(int*);
-void print_array(int*);
+/*
+ * pointer to array & to size of array to seed
+ */
+void seed_int_array(int*, int*);
 
-void selection_sort(int*, int);
+/*
+ * pointer to array & size of the array
+ */
+void print_array(int*, int*);
+
+/*
+ * pointer to array & size of array, sort order
+ */
+void selection_sort(int*, int*, int);
 
 #endif
