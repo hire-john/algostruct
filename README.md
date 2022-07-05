@@ -14,6 +14,7 @@ The program contains/will contain the following algortihms and structures and so
 
 ### Sorts
 * Selection
+![Algostruct Selection Sort Screenshot](https://www.hire-john.com/images/algostruct_selection_sort.png)
 * Insertion
 * Bubble
 * Merge
@@ -54,6 +55,8 @@ The program contains/will contain the following algortihms and structures and so
 
 * Linux
 * VIM (no IDE is used for any of these repos)  
+
+
 * GNU Compiler Collection -> GCC version 12.1.1
 * GNU Debugger -> GDB Version 12.1.1
 * GNU Automake -> AM Version 1.16.5 (currently optional - maybe for future use)
