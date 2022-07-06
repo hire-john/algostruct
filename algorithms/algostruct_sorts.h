@@ -10,5 +10,6 @@
 #define ALGOSTRUCT_ALGO_SORTING
 
 #include <as_selection_sort.h>
+#include <as_insertion_sort.h>
 
 #endif
