@@ -9,10 +9,7 @@
 #ifndef ALGOSTRUCT_ALGO_SORTING
 #define ALGOSTRUCT_ALGO_SORTING
 
-#include <stdlib.h>
-#include <stdio.h>
-#include <time.h>
-#include <unistd.h>
+#include <as_selection_sort.h>
 
 /*
  * pointer to array & to size of array to seed
@@ -24,9 +21,6 @@ void seed_int_array(int*, int*);
  */
 void print_array(int*, int*);
 
-/*
- * pointer to array & size of array, sort order
- */
-void selection_sort(int*, int*, int);
+
 
 #endif
