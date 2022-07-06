@@ -11,16 +11,4 @@
 
 #include <as_selection_sort.h>
 
-/*
- * pointer to array & to size of array to seed
- */
-void seed_int_array(int*, int*);
-
-/*
- * pointer to array & size of the array
- */
-void print_array(int*, int*);
-
-
-
 #endif
