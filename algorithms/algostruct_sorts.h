@@ -9,7 +9,7 @@
 #ifndef ALGOSTRUCT_ALGO_SORTING
 #define ALGOSTRUCT_ALGO_SORTING
 
-#include <as_selection_sort.h>
-#include <as_insertion_sort.h>
+#include <as_algo_selection_sort.h>
+#include <as_algo_insertion_sort.h>
 
 #endif
