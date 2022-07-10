@@ -21,13 +21,13 @@ void print_array(int* array, int* size){
 }
 
 int* new_int_array(int* size){
-	return (int*) malloc(*size * sizeof(int));
+	return (int*) calloc(*size, *size * sizeof(int));
 }
 
 signed int* new_sint_array(int* size){
-	return (signed int*) malloc(*size * sizeof(signed int));
+	return (signed int*) calloc(*size, *size * sizeof(signed int));
 }
 
 unsigned int* new_uint_array(int* size){
-	return (unsigned int*) malloc(*size * sizeof(unsigned int));	
+	return (unsigned int*) calloc(*size, *size * sizeof(unsigned int));	
 }

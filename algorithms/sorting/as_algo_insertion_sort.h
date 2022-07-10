@@ -2,7 +2,7 @@
 #define ALGOSTRUCT_ALGO_SORTING_INSERTION
 
 #include <stdlib.h>
-
+#include <stdio.h>
 /*
  * pointer to array & size of array, sort order
  */
