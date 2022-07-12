@@ -6,10 +6,15 @@
  * Author: John McDonnell - JJM - john@hire-john.com
  */
 
+#include "arg_parser.h"
 #include <algostruct_structs.h>
 #include <algostruct_sorts.h>
 
-int main(int argc, char** argv){
+int main(int argc, char* argv[]){
+
+	printf("Arg Parser \n");
+	argument_parser(argc, argv);
+
 	int size, sort_order;
 	printf("enter # of elements: ");
 	scanf("%d", &size);

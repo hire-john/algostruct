@@ -1,7 +1,7 @@
 CC = cc
 ASDIR = $(realpath $(CURDIR))
 APPNAME = Algostruct
-INCDIR = -I./algorithms -I./structures -I./algorithms/sorting/ -I./structures/arrays/
+INCDIR = -I. -I./algorithms -I./structures -I./algorithms/sorting/ -I./structures/arrays/
 DEBUG = -g
 CFLAGS = $(DEBUG) $(INCDIR)
 ALGODIR = "./algorithms/"
