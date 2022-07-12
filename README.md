@@ -71,3 +71,18 @@ The program contains/will contain the following algortihms and structures and so
 ![Autoconf Version Screenshot](https://www.hire-john.com/images/autoconf_version.png)
 
 * All C is written and compiled to be in accordance with the GNUISO C17 standard (gcc -std=c17) nearly everything will compile under C18 as well. I'm just sticking to the more wider known C17 standard at this time. 
+
+### Building and Running
+
+You can just run the application by using the following command from the main directory:
+
+```
+$: ./Algostruct
+```
+
+To build the project simply run make from the main directory:
+
+```
+$: make
+$: ./Algostruct
+```
