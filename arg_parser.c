@@ -1,12 +1,16 @@
 #include "arg_parser.h"
 
 void parse_cli_args(int argc, char* argv[]){
+	const unsigned char action_sentinel = 0x3D;
+	const unsigned char* p_action_sentinel = &action_sentinel;
 	for(int i = 0; i < argc; i++){
-		printf("Argument entered: %s\n", argv[i]);
+		if(*argv[i] == *p_action_sentinel){
+			printf("match found!\n");
+			char* p_cli_sentinel;
+			p_cli_sentinel = strstr(argv[i], p_action_sentinel);
+			printf("Address of Sentinel In String: %p\n", p_action_sentinel);
+		}
 	}
-}
-
-void parse_arg_commands(){
 }
 
 void argument_parser(int argc, char* argv[]){
@@ -16,4 +20,3 @@ void argument_parser(int argc, char* argv[]){
 		printf("add default handler function\n");
 	}
 }
-

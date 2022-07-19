@@ -7,8 +7,6 @@
  */
 
 #include "arg_parser.h"
-#include <algostruct_structs.h>
-#include <algostruct_sorts.h>
 
 int main(int argc, char* argv[]){
 
