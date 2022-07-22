@@ -1,21 +1,20 @@
 #include <as_algo_insertion_sort.h>
-
 void insertion_sort(unsigned int* array, int* size, int sort_order){
-	register int curr, prev;
+	register int curr_val, prev_idx;
 	for(int i = 1; i < *size; i++){
-		curr = array[i];
-		prev = i - 1;
+		curr_val = array[i];
+		prev_idx = i - 1;
 		if(sort_order){
-			while(prev >= 0 && array[prev] > curr){
-				array[prev + 1] = array[prev];
-				prev = prev - 1;
+			while(prev_idx >= 0 && array[prev_idx] > curr_val){
+				array[prev_idx + 1] = array[prev_idx];
+				prev_idx = prev_idx - 1;
 			}
 		}else{
-			while(prev >= 0 && array[prev] < curr){
-				array[prev + 1] = array[prev];
-				prev = prev - 1;
+			while(prev_idx >= 0 && array[prev_idx] < curr_val){
+				array[prev_idx + 1] = array[prev_idx];
+				prev_idx = prev_idx - 1;
 			}
 		}
-		array[prev + 1] = curr;
+		array[prev_idx + 1] = curr_val;
 	}
 }
