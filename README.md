@@ -11,12 +11,15 @@ I generally dedicate a small-portion of a day each day when I am able to complet
 The program contains/will contain the following algortihms and structures and some additions not listed like graphs.
 
 ## ALGOrithms
+![Algostruct Screenshot](https://www.hire-john.com/images/algostruct_start.png)
 
 ### Sorts
 * Selection  
 ![Algostruct Selection Sort Screenshot](https://www.hire-john.com/images/algostruct_selection_sort.png)
 
 * Insertion
+![Algostruct Insertion Sort Screenshot](https://www.hire-john.com/images/algostruct_insertion_sort.png)
+
 * Bubble
 * Merge
 * Quick 
