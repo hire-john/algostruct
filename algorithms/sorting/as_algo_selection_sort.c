@@ -1,5 +1,5 @@
 #include <as_algo_selection_sort.h>
-void selection_sort(int* array, int* size, int sort_order){
+void selection_sort(unsigned int* array, int* size, int sort_order){
 	register int min;
 	for(int i = 0; i < *size; i++){
 		min = i;

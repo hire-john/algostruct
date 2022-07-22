@@ -12,10 +12,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <algostruct_sorts.h>
 #include <algostruct_structs.h>
+#include <algostruct_sorts.h>
 
 void parse_cli_args(int, char* []);
-void argument_parser(int, char* []);
 
 #endif

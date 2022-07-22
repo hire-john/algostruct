@@ -9,7 +9,11 @@
 #ifndef ALGOSTRUCT_ALGO_SORTING
 #define ALGOSTRUCT_ALGO_SORTING
 
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <algostruct_structs.h>
 #include <as_algo_selection_sort.h>
 #include <as_algo_insertion_sort.h>
-
+void select_sort(char*);
 #endif
