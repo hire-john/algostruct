@@ -16,6 +16,26 @@ void select_sort(char* sort_name){
 		selection_sort(uint_array, &size, sort_order);
 	}else if (strcmp(sort_name, "insertion") == 0){
 		insertion_sort(uint_array, &size, sort_order);
+	}else if (strcmp(sort_name, "bubble") == 0){
+		bubble_sort(uint_array, &size, sort_order);
+	}else if (strcmp(sort_name, "bucket") == 0){
+		bucket_sort(uint_array, &size, sort_order);
+	}else if (strcmp(sort_name, "counting") == 0){
+		counting_sort(uint_array, &size, sort_order);
+	}else if (strcmp(sort_name, "cube") == 0){
+		cube_sort(uint_array, &size, sort_order);
+	}else if (strcmp(sort_name, "heap") == 0){
+		heap_sort(uint_array, &size, sort_order);
+	}else if (strcmp(sort_name, "merge") == 0){
+		merge_sort(uint_array, &size, sort_order);
+	}else if (strcmp(sort_name, "quick") == 0){
+		quick_sort(uint_array, &size, sort_order);
+	}else if (strcmp(sort_name, "radix") == 0){
+		radix_sort(uint_array, &size, sort_order);
+	}else if (strcmp(sort_name, "shell") == 0){
+		shell_sort(uint_array, &size, sort_order);
+	}else if (strcmp(sort_name, "tree") == 0){
+		tree_sort(uint_array, &size, sort_order);
 	}else{
 		sort_name_error = 1;
 	}
