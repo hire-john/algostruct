@@ -8,6 +8,7 @@ void select_sort(char* sort_name){
 	printf("enter 0 for descending order; enter 1 for ascending order: ");
 	scanf("%d", &sort_order);
 	unsigned int* uint_array = new_uint_array(&size);
+	void* void_array = new_void_array(&size, "uint");
 	seed_uint_array(uint_array, &size);
 	printf("Randomly generated array before sorting: \n");
 	print_uint_array(uint_array, &size);
@@ -17,7 +18,7 @@ void select_sort(char* sort_name){
 	}else if (strcmp(sort_name, "insertion") == 0){
 		insertion_sort(uint_array, &size, sort_order);
 	}else if (strcmp(sort_name, "bubble") == 0){
-		bubble_sort(uint_array, &size, sort_order);
+		bubble_sort(void_array, &size, sort_order);
 	}else if (strcmp(sort_name, "bucket") == 0){
 		bucket_sort(uint_array, &size, sort_order);
 	}else if (strcmp(sort_name, "counting") == 0){

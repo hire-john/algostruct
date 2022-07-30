@@ -12,6 +12,6 @@
 /*
  * pointers to array & size of array, sort order uint one or zero 
  */
-void tree_sort(int*, int*, int);
+void tree_sort(void*, int*, int);
 
 #endif

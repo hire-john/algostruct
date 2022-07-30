@@ -12,6 +12,6 @@
 /*
  * pointers to array & size of array, sort order uint one or zero 
  */
-void shell_sort(int*, int*, int);
+void shell_sort(void*, int*, int);
 
 #endif
