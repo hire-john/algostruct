@@ -6,6 +6,6 @@
 /*
  * pointer to array & size of array, sort order
  */
-void selection_sort(void*, int*, int);
+void selection_sort(int*, int*, int);
 
 #endif

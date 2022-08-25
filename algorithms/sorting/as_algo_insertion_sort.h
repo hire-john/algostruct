@@ -6,6 +6,6 @@
 /*
  * pointer to array & size of array, sort order
  */
-void insertion_sort(void*, int*, int);
+void insertion_sort(int*, int*, int);
 
 #endif

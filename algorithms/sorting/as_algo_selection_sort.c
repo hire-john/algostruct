@@ -1,6 +1,6 @@
 #include <as_algo_selection_sort.h>
-void selection_sort(void* array, int* size, int sort_order){
-	/*register int min;
+void selection_sort(int* array, int* size, int sort_order){
+	register int min;
 	for(int i = 0; i < *size; i++){
 		min = i;
 		for(int ii = i + 1; ii < *size; ii++){
@@ -27,7 +27,5 @@ void selection_sort(void* array, int* size, int sort_order){
 				array[i] = array[i] ^ array[min];
 			}
 		}
-	}*/
-
-	printf("Size is = %d", size);
+	}
 }

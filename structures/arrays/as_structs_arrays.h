@@ -18,12 +18,14 @@
 int* new_int_array(int*); /* usually defaults to signed / arm defaults to unsigned best to use explicit type */
 signed int* new_sint_array(int*);
 unsigned int* new_uint_array(int*);
-void* new_void_array(int*, char*);
+char* new_char_array(int*);
 
+void seed_int_array(int*, int*);
 void seed_sint_array(signed int*, int*);
 void seed_uint_array(unsigned int*, int*);
-void seed_void_array(void*, int*);
+void seed_char_array(char*, int*);
 
-void print_array(void*, int*);
+void print_int_array(int*, int*);
+void print_char_array(char*, int*);
 
 #endif
