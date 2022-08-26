@@ -21,6 +21,8 @@ The program contains/will contain the following algortihms and structures and so
 ![Algostruct Insertion Sort Screenshot](https://www.opticalvoltage.com/extern/algostruct/algostruct_insertion_sort.png)
 
 * Bubble
+![Algostruct Bubble Sort Screenshot](https://www.opticalvoltage.com/extern/algostruct/algostruct_bubble_sort.png)
+
 * Merge
 * Quick 
 * Heap
