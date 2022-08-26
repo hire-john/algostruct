@@ -12,6 +12,6 @@
 /*
  * pointers to array & size of array, sort order uint one or zero 
  */
-void counting_sort(int*, int*, int);
+void counting_sort(void*, int*, int);
 
 #endif

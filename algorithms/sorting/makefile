@@ -4,8 +4,9 @@ DEBUG = -g
 CFLAGS = $(DEBUG) $(INCDIR)
 
 all: bubble_sort.o bucket_sort.o counting_sort.o cube_sort.o \
-	heap_sort.o insertion_sort.o merge_sort.o quick_sort.o \
-	radix_sort.o selection_sort.o shell_sort.o tree_sort.o
+	heap_sort.o merge_sort.o quick_sort.o \
+	radix_sort.o  shell_sort.o tree_sort.o \
+	insertion_sort.o selection_sort.o 
 
 bubble_sort.o: as_algo_bubble_sort.h as_algo_bubble_sort.c
 	$(CC) -c as_algo_bubble_sort.c $(CFLAGS)

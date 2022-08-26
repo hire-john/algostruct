@@ -27,4 +27,9 @@ main.o: main.c
 arg_parser.o: arg_parser.h arg_parser.c
 	$(CC) -c arg_parser.c $(CFLAGS)
 
+
+ifneq ("$(wildcard $(APPNAME))","")
+	rm $(APPNAME)
+endif
+
 .PHONY: subs clean
