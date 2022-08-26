@@ -12,6 +12,6 @@
 /*
  * pointers to array & size of array, sort order uint one or zero 
  */
-void bubble_sort(void*, int*, int);
+void bubble_sort(int*, int*, int);
 
 #endif
